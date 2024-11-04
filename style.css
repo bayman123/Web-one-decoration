@@ -1,0 +1,177 @@
+
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body{
+    background-image:url(D6.jpg);  
+    
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+} 
+ul li a {
+    text-decoration: underline;
+}
+
+.header {
+    padding: 20px ;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.header {
+    padding: 20px;
+    border-bottom: 2px solid #ccc; /* Change color and thickness as desired */
+    margin-bottom: 20px; /* Adds space below the line */
+}
+.judul {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust color as desired */
+}
+
+ul li a:hover {
+    color: #000; /* Darken on hover */
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top:20px ;
+    margin-right:10px;
+}
+.header a{
+    text-decoration: none;
+    color: #000000;
+    padding:5px;
+}
+.header a:hover{
+    background-color: #efc90d;
+    color: rgb(255, 8, 8);
+}
+.hero{
+    height: 300px;
+    background-image: url(ONE\ D.jpg);
+    background-size: cover;
+    background-position: 0-200px;
+   
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.buy-button:hover {
+    background-color: darkgreen;
+}
+
+.menu {
+    list-style: none; /* Menghilangkan marker daftar bawaan */
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li:not(:last-child) {
+    border-bottom: 1px solid #000; /* Menambahkan garis pemisah di bawah setiap item, kecuali yang terakhir */
+}
+
+.menu a {
+    text-decoration: none;
+}
+.conten{
+    padding: 20px;
+}
+.conten h2{
+    font-size:20px;
+    font-weight: bold;
+}
+.conten .penulis{
+    font-size: 12px;
+    
+}
+.conten a{
+    color: #00FA9A;
+    text-decoration: none;
+}
+.conten p{
+    margin-bottom:20px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+
+.footer{
+    background-color: #cdbdbd;
+    text-align: center;
+    font-style: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.footer.copy{
+    color:rgb(98, 88, 88);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    }
+th{
+    padding: 8px;
+    text-align: center;
+    border: 1px #ddd;
+}
+ol, ul {
+    list-style: none;
+   }
+   blockquote, q {
+    quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+    content: '';
+    content: none;
+   }
+   table {
+    border-collapse: collapse;
+    border-spacing: 0;
+   }
